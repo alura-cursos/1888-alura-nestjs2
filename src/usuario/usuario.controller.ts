@@ -1,8 +1,8 @@
 import { Controller, Post, Body, Get, Param, HttpStatus } from '@nestjs/common';
 import { UsuarioService } from './usuario.service';
 import { Usuario } from './usuario.entity';
-import { NestResponse } from 'src/core/http/nest-response';
-import { NestResponseBuilder } from 'src/core/http/nest-response-builder';
+import { NestResponse } from '../core/http/nest-response';
+import { NestResponseBuilder } from '../core/http/nest-response-builder';
 
 @Controller('users')
 export class UsuarioController {
